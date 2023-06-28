@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>My Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="name.jpg">
+      <p>
+        "Hello, I'm Mohd Ateeq ur Rahman, currently pursuing a Bachelor's degree
+        in Computer Science and Engineering (CSE) from IARE. I am extremely
+        passionate about programming and technology. Ever since my early years,
+        I have been fascinated by computers and their ability to solve complex
+        problems. This passion led me to choose CSE as my career path. I am
+        dedicated to constantly expanding my knowledge and skills in this field,
+        always staying up-to-date with the latest trends and advancements.
+        Throughout my academic journey, I have actively participated in various
+        coding competitions and hackathons, where I successfully implemented
+        creative solutions to real-world problems. These experiences have not
+        only sharpened my programming skills but also taught me the value of
+        teamwork and effective communication in achieving success. Apart from
+        programming, I also enjoy exploring other aspects of technology, such as
+        artificial intelligence, machine learning, and web development. I
+        strongly believe that these technologies have the potential to transform
+        the way we live and work, and I am excited to contribute to this
+        transformation. In addition to my technical skills, I possess strong
+        analytical and problem-solving abilities, which have proven to be
+        crucial in tackling complex programming challenges. I am always eager to
+        take on new challenges and learn new technologies, as I believe that
+        continuous learning is essential for personal and professional growth.
+        When I'm not coding, you can find me indulging in my hobbies, such as
+        reading tech blogs, Swimming, and spending quality
+        time with friends and family,Playing Chess. Thank you for taking the time to learn a
+        bit about me. I am excited about the opportunities that lie ahead and
+        look forward to making a positive impact in the world of technology."
+      </p>
+
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>AI-Typing-Tutor</h3>
+        <p>AI Typing Tutor
+
+            The AI Typing Tutor is a project aimed at improving typing skills through an intelligent and interactive system. The tutor will provide users with a personalized learning experience, accurately assessing their typing speed and accuracy, and offering tailored exercises to enhance their skills.
+            <hr>
+            Key Features:
+            1. User Registration and Profile: Users can create an account and maintain their typing progress, allowing them to track their improvement over time.<br>
+            
+            2. Typing Assessment: The tutor will evaluate the user's current typing speed and accuracy through various tests. It will analyze factors like typing speed, keystroke errors, and typing patterns to provide an accurate assessment.<br>
+            
+            3. Adaptive Learning: Based on the assessment results, the AI tutor will generate personalized typing exercises for users. These exercises will focus on areas that need improvement, such as speed, accuracy, or specific keys.<br>
+            
+            4. Real-time Feedback: As users complete the typing exercises, the tutor will provide real-time feedback on their performance. It will highlight errors, suggest corrections, and provide tips to help users improve their typing skills.<br>
+            
+            5. Progress Tracking: The system will maintain a record of each user's progress, allowing them to see their improvement over time. It may include statistics like typing speed, accuracy percentage, number of errors, and time taken to complete exercises.<br>
+            
+            6. Customization Options: Users will have the flexibility to customize their typing exercises according to their preferences. They can choose the difficulty level, exercise duration, and specific keys to focus on.<br>
+            
+            7. Leaderboards and Challenges: To motivate users, a leaderboard can be implemented, showcasing the top typists based on various criteria. Users can also participate in challenges and compete with others to enhance their typing skills.<br>
+            
+            8. Interactive User Interface: The tutor should have a user-friendly interface, visually displaying the typing exercises, highlighting progress, and providing clear instructions.<br>
+            <hr>
+            Implementation:
+            The AI Typing Tutor can be developed using programming languages like Python, JavaScript, or any framework that supports natural language processing and machine learning algorithms. Libraries such as PyTorch, TensorFlow, or scikit-learn can be utilized for building and training the AI model.
+            
+            The tutor's AI model can be trained on a large dataset consisting of typed text samples and associated typing speed and accuracy measurements. The model should learn patterns, analyze errors, and generate adaptive exercises based on the user's strengths and weaknesses.
+            
+            The frontend can be created using HTML, CSS, and JavaScript to design an interactive web interface, where users can register, perform typing exercises, and view their progress. Backend technologies like Django or Flask can handle user authentication, database management, and communication between the frontend and AI model.
+            
+            Overall, the AI Typing Tutor project aims to improve users' typing skills through personalized, adaptive exercises, real-time feedback, and progress tracking. It combines AI, natural language processing, and machine learning techniques to create an intelligent and effective typing learning experience.</p>
+      </div>
+      <div class="project">
+        <h3>Image Editor using HTML, CSS, and JavaScript</h3>
+        <p>
+
+            This project aims to create a web-based image editor using HTML, CSS, and JavaScript. The image editor will enable users to load an image, perform various operations on it, and save the edited image.
+            <hr>
+            Key Features:
+            1. Image Upload: Allow users to upload an image from their local device.
+            2. Image Preview: Display the uploaded image as a preview on the web page.
+            3. Image Manipulation: Provide functionalities to manipulate the uploaded image, such as cropping, rotating, resizing, applying filters, adjusting brightness/contrast, etc.
+            4. Undo/Redo Functionality: Implement the ability to undo and redo previous editing actions performed on the image.
+            5. Save/Export: Enable users to save/export the edited image in a specific format, such as JPEG or PNG, preserving the changes made.
+            6. User-Friendly UI: Design an intuitive and user-friendly interface that allows users to easily navigate and interact with the image editor.
+            <hr>
+            Step-by-Step Solution:
+            
+            1. HTML Structure:
+               - Create an HTML file with the necessary structure, including appropriate divs, buttons, and input elements.
+               - Add an input element of type "file" to allow users to select and upload an image file.
+               - Create a canvas element to display the uploaded image and perform editing operations.
+            
+            2. CSS Styling:
+               - Style the HTML elements using CSS to create an attractive and responsive layout.
+               - Apply appropriate styles to the image preview and canvas elements to ensure proper display of uploaded and edited images.
+            
+            3. JavaScript Functionality:
+               - Use JavaScript to handle the image upload functionality and retrieve the selected image file.
+               - Load the image onto the canvas element using the FileReader API.
+               - Implement various image manipulation operations, such as cropping, rotating, resizing, applying filters, adjusting brightness/contrast, etc. (you can use libraries like fabric.js or pure JavaScript functions).
+               - Enable undo/redo functionality by maintaining a history of editing actions and allowing users to revert or redo them.
+               - Provide a save/export feature to allow users to download the edited image in a specific format.
+               
+            4. User Interaction:
+               - Implement event listeners to respond to user actions, such as selecting an image, clicking on buttons to perform editing operations, or saving the edited image.
+               - Update the canvas and preview elements in real-time to reflect the changes made by the user.
+            
+            The overall goal of this project is to create a functional and visually appealing image editor that allows users to easily upload, edit, and save images using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project">
+        <h3>Feature Extraction and Classifying of Students Based on Academic Performance</h3>
+
+        <p>
+            The goal of this project is to develop a system that can automatically extract relevant features from student datasets and use those features to classify students based on their academic performance. This can be a valuable tool for educational institutions to identify students who might need additional support or those who excel academically.
+            
+            Here is a step-by-step breakdown of the project:<br>
+            
+            1. Data Collection: The first step is to gather relevant data about the students. This could include information such as attendance records, test scores, grades, demographic data, and any other relevant information available. The data can be collected from various sources, such as databases, spreadsheets, or online APIs.<br>
+            
+            2. Preprocessing: Once the data is collected, it needs to be preprocessed to ensure its quality and suitability for analysis. This involves cleaning the data, handling missing values, removing outliers, and transforming the data into a suitable format for further analysis.<br>
+            
+            3. Feature Extraction: Next, we need to extract meaningful features from the collected data. Features can be derived from various aspects of student performance, such as attendance patterns, test scores in different subjects, assignment completion rates, and demographic factors like gender, ethnicity, or socioeconomic status. Feature extraction techniques, such as statistical measures, aggregation, or dimensionality reduction methods, can be applied depending on the nature of the data.<br>
+            
+            4. Feature Selection: After extracting a wide range of features, it's important to select the most relevant ones for classification. Feature selection methods, such as correlation analysis, information gain, or regularization techniques, can be employed to identify the most informative features. This step helps to reduce dimensionality and improve the efficiency of the classification process.<br>
+            
+            5. Training Data Preparation: Before building a classification model, the dataset needs to be divided into training and testing sets. The training set is used to teach the classification algorithm to recognize patterns and relationships between features and student performance. The testing set is used to evaluate the performance of the trained model.<br>
+            
+            6. Classification Model Development: There are various machine learning algorithms suitable for classification tasks, such as decision trees, support vector machines (SVMs), logistic regression, or neural networks. The selected algorithm should be trained using the training dataset and the chosen features. The model will learn from the training data and develop a decision boundary that can be used to classify new, unseen instances.<br>
+            
+            7. Model Evaluation: After training the classification model, its performance needs to be evaluated using the testing dataset. Various evaluation metrics, such as accuracy, precision, recall, and F1-score, can be utilized to measure the model's effectiveness in predicting student performance.<br>
+            
+            8. Deployment and Application: Once the model is evaluated and found to be satisfactory, it can be deployed to predict the academic performance of new students. The system can take in new student data as input, extract the relevant features, and classify them into different performance categories (e.g., high achievers, average performers, or at-risk students). This information can then be used by educational institutions to provide targeted support or interventions to students.<br>
+            
+            It's worth mentioning that this is a high-level overview of the project, and there can be various implementation details and considerations depending on the specific requirements and constraints of the project.</p>
+      </div>
+      <div class="project">
+        <h3>Quiz App in Python</h3>
+
+The Quiz App project in Python is a simple interactive application that allows users to take quizzes on various topics. The app will present multiple-choice questions to the user, keep track of their answers, and provide them with a final score at the end of the quiz.
+<hr>
+Here is a step-by-step breakdown of how you can approach building this Quiz App in Python:
+<br>
+1. User Interface:
+   - Create a text-based interface using the print statement to display questions and options to the user.
+   - Use the input function to receive user input for selecting an option or answering a question.
+<br>
+2. Question Bank:
+   - Prepare a set of questions and possible answers for the quiz in a suitable data structure like a list or dictionary.
+   - Each question should have multiple options, and one of them should be the correct answer.
+<br>
+3. Quiz Logic:
+   - Create a variable to keep track of the score.
+   - Iterate through each question in the question bank.
+   - Display the question and options to the user.
+   - Prompt the user to select an answer.
+   - Compare the user's answer with the correct answer and update the score accordingly.
+<br>
+4. Final Score:
+   - After the user has answered all the questions, display their final score.
+   - You can calculate the score as a percentage or simply provide the number of correct answers out of the total number of questions.
+<br>
+5. User Interaction:
+   - Provide options to the user for retaking the quiz or exiting the application.
+   - Use a loop structure to repeat the quiz or terminate the program based on the user's choice.
+<br>
+Remember to use appropriate error handling techniques, such as checking for valid user inputs and handling exceptions, to ensure the program runs smoothly.
+
+Additionally, you can enhance the project by implementing features like a timer for each question, a leaderboard to store high scores, or adding a graphical user interface (GUI) using libraries like Tkinter or PyQt.
+
+By following these steps, you can create a simple yet functional Quiz App in Python.
+      </div>
+      <div class="project">
+        <h3>Chatbot using HTML,CSS and JS</h3>
+        <p>
+
+            This project aims to build and implement a chatbot using HTML, CSS, and JavaScript. The chatbot will be designed to simulate a conversation with users, providing them with automated responses based on predefined rules or machine learning algorithms.br>
+            
+            The project can be divided into several key steps:<br>
+            
+            1. Designing the User Interface: Start by creating a visually appealing and user-friendly interface for the chatbot using HTML and CSS. This interface should include a chat window where the conversation between the user and the chatbot will be displayed.<br>
+            
+            2. Handling User Input: Use JavaScript to capture and process user input, such as text messages. This can be done using event listeners or form submissions. Make sure to validate and sanitize user input to prevent any security vulnerabilities.<br>
+            
+            3. Creating a Response System: Develop a system to generate responses based on user input. This can be done using a predefined set of rules or by implementing more advanced natural language processing (NLP) techniques. For simple chatbots, you can create if-else statements to match user input with pre-defined responses. For more complex chatbots, you can explore machine learning algorithms like neural networks or decision trees.<br>
+            
+            4. Displaying Chat History: Use JavaScript to update the chat window with the user's input and the chatbot's response. Each message should be displayed with suitable formatting and styling using HTML and CSS.<br>
+            
+            5. Enhancing User Experience: Add features to enhance the user experience, such as displaying typing indicators, providing suggestions, or incorporating emojis. These can be implemented using JavaScript and CSS.<br>
+            
+            6. Testing and Iteration: Test your chatbot thoroughly to ensure it works as expected in various scenarios. Seek feedback from users and iterate on the design and functionality based on their suggestions.<br>
+            
+            Remember to incorporate error handling and edge case scenarios in your implementation. Additionally, considering accessibility standards and responsive design principles will make your chatbot more inclusive and usable across different devices.<br>
+            
+            By following these steps and creatively applying HTML, CSS, and JavaScript, you can build an interactive and engaging chatbot that provides a seamless conversational experience for users.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br />
+        <input type="submit" value="Send" />
+      </form>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
